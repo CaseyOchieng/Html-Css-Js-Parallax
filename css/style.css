@@ -56,3 +56,16 @@ header {
 }
 
 /* section */
+.parallax{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#text{
+    position: absolute;
+    font-size: 5em;
+    color:rgba(0, 0, 0, 0.493);
+}
